@@ -28,16 +28,16 @@ To run this project locally, follow the steps below:
    git clone https://github.com/yourusername/hotel-review-sentiment-analysis.git
 
 2.Navigate to the project directory:
-```bash
-cd hotel-review-sentiment-analysis
+   ```bash
+   cd hotel-review-sentiment-analysis
 
 3.Install the required packages:
-```bash
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4.Run the Flask app:
-```bash
-python app.py
+   ```bash
+   python app.py
 
 ##How It Works
 -The Flask application provides a simple form where users can input hotel reviews.
