@@ -27,5 +27,6 @@ To run this project locally, follow the steps below:
    ```bash
    git clone https://github.com/yourusername/hotel-review-sentiment-analysis.git
 
-Navigate to the project directory:
+2.Navigate to the project directory:
+```bash
 cd hotel-review-sentiment-analysis
