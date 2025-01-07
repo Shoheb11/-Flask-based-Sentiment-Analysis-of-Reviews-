@@ -30,3 +30,16 @@ To run this project locally, follow the steps below:
 2.Navigate to the project directory:
 ```bash
 cd hotel-review-sentiment-analysis
+3.Install the required packages:
+```bash
+pip install -r requirements.txt
+4.Run the Flask app:
+```bash
+python app.py
+##How It Works
+-The Flask application provides a simple form where users can input hotel reviews.
+-Once a review is submitted, the input text is passed through a pre-trained sentiment analysis model to determine the sentiment.
+-The model returns the sentiment as positive, negative, or neutral, and the result is displayed on the webpage.
+##Model Details
+The sentiment analysis model is a machine learning model trained on a dataset of hotel reviews. The model uses text preprocessing techniques like tokenization, stopword removal, and feature extraction (e.g., TF-IDF) to classify the sentiment of the review.
+
